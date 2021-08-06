@@ -23,6 +23,8 @@ let randomStringArr = []
 const subscription = interval(1000).subscribe((x) => {
 
     randomStringArr.push(randomString())
+    
+    // for tests, change randomStingArr => testArr
 
     let str = randomStringArr[x]
 
